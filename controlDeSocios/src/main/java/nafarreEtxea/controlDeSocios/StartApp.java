@@ -39,6 +39,11 @@ public class StartApp extends Application
 			throw new Exception("Ha surgido un problema al abrir la aplicación", exception);
 		}
 		
+		/**
+		 * https://wimdeblauwe.wordpress.com/2017/09/18/using-spring-boot-with-javafx/
+		 * Example SpringBoot and JavaFX
+		 */
+		
 	}
 
 	private Scene generateStackPane() {
