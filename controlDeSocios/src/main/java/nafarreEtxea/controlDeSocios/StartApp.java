@@ -34,7 +34,7 @@ public class StartApp extends Application
 		scene.getStylesheets().addAll(this.getClass().getClassLoader().getResource("css/styleSheet.css").toExternalForm());
 		
         stage.setScene(scene);
-        //stage.setMaximized(true); FULLSCREEN
+        stage.setMaximized(true); 
         stage.show();
 		} catch (Exception exception) {
 			throw new Exception("Ha surgido un problema al abrir la aplicación", exception);
