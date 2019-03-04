@@ -34,10 +34,16 @@ public class StartApp extends Application
 		scene.getStylesheets().addAll(this.getClass().getClassLoader().getResource("css/styleSheet.css").toExternalForm());
 		
         stage.setScene(scene);
+        stage.setMaximized(true); 
         stage.show();
 		} catch (Exception exception) {
 			throw new Exception("Ha surgido un problema al abrir la aplicación", exception);
 		}
+		
+		/**
+		 * https://wimdeblauwe.wordpress.com/2017/09/18/using-spring-boot-with-javafx/
+		 * Example SpringBoot and JavaFX
+		 */
 		
 	}
 
